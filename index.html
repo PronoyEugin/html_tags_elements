@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="eng">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, intial-scale=1.0">
+	<title>html tags</title>
+</head>
+
+<body>
+	
+	<h1>HTML tags, Elements Attributes Class</h1>
+
+	<h3> 1. a</h3>
+	<p>Defines a hyperlink</p>
+	<a href="https://www.youtube.com" target="_blank">Youtube</a>
+
+	<h3>2. abbr </h3>
+	<p> Defines an abbreviation or an acronym </p>
+	<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+	<h3>3. area </h3>
+	<p>Defines an area inside an image map </p>
+
+	<h3>4. article </h3>
+	<p> Defines an article</p>
+	<article>
+	<h2>Google Chrome</h2>
+	<p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+	</article>
+
+	<h3>5. aside</h3>
+	<p>Defines content aside from the page content</p>
+	<aside>
+	<h2>Epcot Center</h2>
+	<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+	</aside>
+	
+
+	<h3>6. audio </h3>
+	<p>Defines embedded sound content</p>
+	<audio controls="controls">
+		<source src="music.mp3" type="audio/mp3">
+	</audio>
+
+	<h3>7. b </h3>
+	<p> Defines bold text</p>
+	<p>this is <b>bold text</b> </p>
+
+	<h3>8. base </h3>
+	<p> Specifies the base URL/target for all relatives URLs in a ducuments </p>
+	<a href="tags/tag_base.asp">HTML base tag</a> - Notice that the link opens in a new window, even if it has no target="_blank" attribute. This is because the target attribute of the base element is set to "_blank".</p> 
+
+	<h3> 9. bdi</h3>
+	<p>Isolates a part of text that might be formatted in a different direction from other text outside it</p>
+	<ul>
+ 	<li>User <bdi>hrefs</bdi>: 60 points</li>
+ 	<li>User <bdi>jdoe</bdi>: 80 points</li>
+ 	<li>User <bdi>إيان</bdi>: 90 points</li>
+	</ul>
+
+	<h3> 10. bdo</h3>
+	<p> over rides the current text direction</p>
+	<p>This paragraph will go left-to-right.</p>  
+	<p><bdo dir="rtl">This paragraph will go right-to-left.</bdo></p>
+
+	<h3> 11. blockquote</h3>
+	<p>Defines a section that is quoted from another source</p>
+	<p>Here is a quote from WWF's website:</p>
+	<blockquote cite="http://www.worldwildlife.org/who/index.html">
+	For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+	</blockquote>
+
+
+	<h3> 12. body</h3>
+	<p> defines the documents body</p>
+
+
+	<h3> 13. br</h3>
+	<p> defines a single line break </p>
+	<p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Aspernatur, laboriosam?</p>
+
+	<h3> 14. button</h3>
+	<p> defines a clickable button</p>
+	<button type="button">Click Me!</button>
+
+	<h3> 15. canvas </h3>
+	<p> Used to draw graphics, on the fly, via scripting (usually JavaScript)</p>
+	<canvas id="myCanvas" width="300" height="150" style="border:1px solid grey"></canvas>
+
+	<h3>16. caption </h3>
+	<p> Defines a table caption</p>
+
+	<h3> 17. cite</h3>
+	<p> define a title of work</p>
+	<img src="images/laptop.jpg" width="250" height="150" alt="image">
+	<p><cite>This is laptop </cite> by HP</p>
+
+
+	<h3> 18. code</h3>
+	<p> defines a piece of computer code</p>
+
+
+	<h3> 19. col</h3>
+	<p>Specifies column properties for each column within a elements</p>
+
+	<h3> 20. colgroup</h3>
+	<p> Specifies a group of one or more columns in a table for formatting</p>
+
+	<h3> 21. data</h3>
+	<p> Adds a machine-readable translation of a given content</p>
+
+	<h3> 22. datalist</h3>
+	<p> Specifies a list of pre-defined options for input controls</p>
+
+	<h3>23. dd</h3>
+	<p> Defines a description/value of a term in a description list</p>
+
+	<h3> 24. del</h3>
+	<p> Defines text that has been deleted from a document</p>
+	<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+
+	<h3> 25. details</h3>
+	<p> Defines additional details that the user can view or hide</p>
+	<details>
+  		<summary>Epcot Center</summary>
+  		<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+	</details>
+
+
+	<h3> 26. dfn</h3>
+	<p> Specifies a term that is going to be defined within the content</p>
+	<p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
+
+	<h3> 27. dialog</h3>
+	<p> Defines a dialog box or window</p>
+	<p>This is some text.</p>
+	<dialog open>This is an open dialog window</dialog>
+
+
+	<h3>28. div </h3>
+	<p> Defines a section in a document</p>
+
+
+	<h3> 29. dl</h3>
+	<p> Defines a description list</p>
+	<dl>
+  		<dt>Coffee</dt>
+  		<dd>Black hot drink</dd>
+  		<dt>Milk</dt>
+  		<dd>White cold drink</dd>
+	</dl>
+
+
+	<h3> 30. dt</h3>
+	<p> Defines a term/name in a description list</p>
+
+	<h3>31. em</h3>
+	<p> Defines emphasized text</p>
+	<p>You <em>have</em> to hurry up!</p>
+	<p>We <em>cannot</em> live like this.</p>
+
+
+	<h3> 32. embed</h3>
+	<p> Defines a container for an external application</p>
+	<embed type="image/jpg" src="images/laptop.jpg" width="300" height="200">
+
+
+	<h3> 33. fieldest</h3>
+	<p>Groups related elements in a form</p> 
+	 <fieldset>
+  		<legend>Personalia:</legend>
+  		<label for="fname">First name:</label>
+  		<input type="text" id="fname" name="fname"><br><br>
+  		<label for="lname">Last name:</label>
+  		<input type="text" id="lname" name="lname"><br><br>
+  		<label for="email">Email:</label>
+  		<input type="email" id="email" name="email"><br><br>
+  		<label for="birthday">Birthday:</label>
+  		<input type="date" id="birthday" name="birthday"><br><br>
+  		<input type="submit" value="Submit">
+ 	</fieldset>
+
+
+ 	<h3> 34. figcaption</h3>
+ 	<p> Defines a caption for a element </p>
+
+ 	<h3> 35. figure</h3>
+ 	<p> Specifies self-contained content</p>
+ 	<figure>
+  		<img src="images/laptop.jpg" alt="image" style="width:50%">
+ 		 <figcaption> Working on my laptop</figcaption>
+	</figure>
+
+
+	<h3>36. footer</h3>
+	<p> Defines a footer for a document or section</p>
+	<footer>
+  		<p>allrights reserved by author<br>
+  		<a href="example@gmail.com">example@gmail.com</a></p>
+	</footer>
+
+
+	<h3>37. form</h3>
+	<p>Defines an HTML form for user input</p>
+	<form action="/action_page.php">
+  		<label for="fname">First name:</label>
+  		<input type="text" id="fname" name="fname"><br><br>
+  		<label for="lname">Last name:</label>
+  		<input type="text" id="lname" name="lname"><br><br>
+  		<input type="submit" value="Submit">
+	</form>
+
+
+	<h3> 38. h1-h6</h3>
+	<p>Defines HTML headings</p>
+
+	<h3> 39. head</h3>
+	<p> Contains metadata/information for the document</p>
+
+	<h3> 40. header</h3>
+	<p>Defines a header for a document or section</p>
+
+	<h3> 41. hr</h3>
+	<p> Defines a thematic change in the content</p>
+
+	<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+	<hr>
+	<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+	<hr>
+	<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+
+	<h3> 42. html </h3>
+	<p> Defines the root of an HTML document</p>
+
+
+	<h3>43. i</h3>
+	<p> The content inside is typically displayed in italic.</p>
+	<p><i>Lorem ipsum</i> is the most popular filler text in history.</p>
+
+	<h3>44. iframe</h3>
+	<p> Defines an inline frame</p>
+	<iframe src="https://www.youtube.com/watch?v=HSMl-NP0JlE" title="Youtube">Youtube</iframe>
+
+
+	<h3> 45. img </h3>
+	<p>Defines an image</p>
+	<img src="images/laptop.jpg" alt="laptop" width="25%" ">
+
+	<h3> 46. input</h3>
+	<p> Defines an input control</p>
+	<form action="/action_page.php">
+  		<label for="fname">First name:</label>
+  		<input type="text" id="fname" name="fname"><br><br>
+  		<label for="lname">Last name:</label>
+  		<input type="text" id="lname" name="lname"><br><br>
+  		<input type="submit" value="Submit">
+	</form>
+
+
+	<h3> 47. ins</h3>
+	<p> Defines a text that has been inserted into a document</p>
+	<p>My favorite color is <del>blue</del> <ins>red</ins>!</p
+
+
+	<h3> 48. kdb </h3>
+	<p> Defines keyboard input</p>
+
+
+	<h3> 49. label</h3>
+	<p> Defines a label for an input element</p>
+	<form action="/action_page.php">
+		<input type="radio" id="html" name="fav_language" value="HTML">
+		<label for="html">HTML</label><br>
+		<input type="radio" id="css" name="fav_language" value="CSS">
+		<label for="css">CSS</label><br>
+		<input type="radio" id="javascript" name="fav_language" value="JavaScript">
+		<label for="javascript">JavaScript</label><br><br>
+  		<input type="submit" value="Submit">
+	</form>
+
+	<h3>50. legend</h3>
+	<p> Defines a caption for a fieldset element</p>
+
+	<h3>51. li </h3>
+	<p> Defines a list item</p>
+	<ol>
+  		<li>Coffee</li>
+  		<li>Tea</li>
+  		<li>Milk</li>
+	</ol>
+	<ul>
+  		<li>Coffee</li>
+  		<li>Tea</li>
+  		<li>Milk</li>
+	</ul>
+
+
+	<h3>52. link</h3>
+	<p>Defines the relationship between a document and an external resource (most used to link to style sheets)</p>
+	<link rel="stylesheet" href="styles.css">
+
+	<h3>53. main</h3>
+	<p> Specifies the main content of a document</p>
+
+	<h3> 54. map</h3>
+	<p> Defines an image map</p>
+
+	<h3>55. mark</h3>
+	<p>Defines marked/highlighted text</p>
+	<p>Do not forget to buy <mark>milk</mark> today.</p>
+
+
+	<h3>56. menu</h3>
+	<p>Defines an unordered list</p>
+	<menu>
+  		<li>Coffee</li>
+  		<li>Tea</li>
+  		<li>Milk</li>
+	</menu>
+
+	<h3>57. meta</h3>
+	<p> Defines metadata about an HTML document</p>
+	<meta charset="UTF-8">
+  	<meta name="description" content="Free Web tutorials">
+  	<meta name="keywords" content="HTML, CSS, JavaScript">
+  	<meta name="author" content="John Doe">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  	<h3>58. meter</h3>
+  	<p>Defines a scalar measurement within a known range (a gauge)</p>
+  	<label for="disk_c">Disk usage C:</label>
+	<meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+
+	<label for="disk_d">Disk usage D:</label>
+	<meter id="disk_d" value="0.6">60%</meter>
+
+	<h3>59. nav</h3>
+	<p>Defines navigation links</p>
+	<nav>
+  		<a href="/html/">HTML</a> |
+  		<a href="/css/">CSS</a> |
+  		<a href="/js/">JavaScript</a> |
+  		<a href="/python/">Python</a>
+	</nav>
+
+	<h3>60. ol</h3>
+	<p>Defines an ordered list</p>
+	<ol>
+  		<li>Coffee</li>
+  		<li>Tea</li>
+  		<li>Milk</li>
+	</ol>
+
+
+	<h3>61. option</h3>
+	<p>Defines an option in a drop-down list</p>
+	<select id="cars">
+  		<option value="volvo">Volvo</option>
+  		<option value="saab">Saab</option>
+  		<option value="opel">Opel</option>
+  		<option value="audi">Audi</option>
+	</select>
+
+
+	<h3>62. output</h3>
+	<p>Defines the result of a calculation</p>
+	<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+		<input type="range" id="a" value="50">
+		+<input type="number" id="b" value="25">
+		=<output name="x" for="a b"></output>
+	</form>
+
+
+	<h3>63. p</h3>
+	<p>Defines a paragraph text</p>
+
+	<h3>64. progress </h3>
+	<p>Represents the progress of a task</p>
+	<label for="file">Downloading progress:</label>
+	<progress id="file" value="32" max="100"> 32% </progress>
+
+
+	<h3>64. s</h3>
+	<p>Defines text that is no longer correct</p>
+	<p><s>Only 50 tickets left!</s></p>
+	<p>SOLD OUT!</p>
+
+
+	<h3>65. search</h3>
+	<p>Defines a search section</p>
+	<search>
+  		<form>
+    	<input name="fsrch" id="fsrch" placeholder="Search ssb-619">
+  		</form>
+	</search>
+
+	<h3>66. span</h3>
+	<p>Defines a section in a document</p>
+	<p>My mother has <span style="color:blue;font-weight:bold">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold">dark green</span> eyes.</p>
+
+
+	<h3>66. sub</h3>
+	<p>Defines subscripted text</p>
+	<p>This text contains <sub>subscript</sub> text.</p>
+
+
+
+	<h3>67. sup</h3>
+	<p>Defines superscripted text</p>
+	<p>This text contains <sup>superscript</sup> text.</p>
+
+
+	<h3>68. u</h3>
+	<p>Defines some text that is unarticulated and styled differently from normal text</p>
+	<p>This is some <u>mispeled</u> text.</p>
+
+
+	<h3>69. ul </h3>
+	<p>Defines an unordered list</p>
+	<ul>
+  		<li>Coffee</li>
+  		<li>Tea</li>
+  		<li>Milk</li>
+	</ul>
+
+	<h3>70. video</h3>
+	<p>Defines embedded video content</p>
+	<video width="320" height="240" controls>
+  		<source src="https://www.youtube.com/watch?v=WCli0gyNwL0" type="video/mp4">
+	</video>
+
+
+
+
+
+
+
+
+
+</body>
